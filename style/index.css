@@ -1,0 +1,95 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #b22830;
+    padding: 30px;
+
+}
+
+
+header .nav-link {
+    color: white;
+    --bs-nav-link-color: #fbd8d2;
+    --bs-nav-link-hover-color: #fbd8d2;
+
+}
+
+header .btn {
+    color: white;
+}
+
+header .btn-outline-primary {
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: #fbd8d2;
+    --bs-btn-hover-border-color: #fbd8d2;
+}
+
+.sticky {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+
+}
+
+.logo img {
+    height: 50px;
+}
+
+.banner {
+    background-image: url(/resources/image/product_sample_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.caption {
+    color: #faebd7;
+
+}
+
+.banner a {
+    color: #faebd7;
+    text-decoration: none;
+}
+
+.banner .btn {
+    color: #faebd7;
+}
+
+.banner .btn-outline-primary {
+    --bs-btn-border-color: #faebd7;
+    --bs-btn-hover-bg: #756763;
+}
+
+
+.caption button {
+    border: none;
+}
+
+.customer_inf .btn-primary {
+    --bs-btn-bg: #b22830;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: #fbd8d2;
+    --bs-btn-hover-border-color: #fbd8d2;
+}
+
+.media {
+    margin: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    text-wrap: wrap;
+    padding: 20px;
+    background-color: #b22830;
+    color: white;
+
+}
